@@ -38,18 +38,18 @@
     <header class="container px-3 mx-auto">
         <!-- Nav start here -->
         <nav class="my-12">
-            <div class="navbar bg-primary-color rounded-full px-4 gap-3">
-                <div class="navbar-start">
+            <div class="navbar bg-white md:bg-[#F85559] bg-primary-color rounded-full px-4 gap-3 flex-row-reverse md:flex-row">
+                <div class="navbar-start justify-end md:justify-start ">
                     <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:text-white text-black" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M4 6h16M4 12h8m-8 6h16" />
                             </svg>
                         </label>
                         <ul tabindex="0"
-                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-lg font-medium">
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-lg font-medium -ml-40 md:ml-0">
                             <li><a>Home</a></li>
                             <li><a>About Us</a></li>
                             <li><a>Shop</a></li>
@@ -58,7 +58,7 @@
                     </div>
                     <div class="navbar-center hidden lg:flex">
                         <ul class="menu menu-horizontal px-1 text-white text-lg font-medium">
-                            <li><a>Home</a></li>
+                            <li><a class="px-2">Home</a></li>
                             <li><a>About Us</a></li>
                             <li><a>Shop</a></li>
                             <li><a>All Fruits</a></li>
@@ -67,12 +67,12 @@
                 </div>
                 <div class="navbar-center">
                     <img class="my-1" src="./images/logo.png" alt="">
-                    <h1 class="text-4xl font-bold text-white ml-4">Fruit Burst</h1>
+                    <h1 class="text-4xl font-bold md:text-white ml-4">Fruit Burst</h1>
                 </div>
                 <div class="navbar-end hidden md:flex">
                     <!-- search bar -->
                     <div class="join">
-                        <input class="input focus:outline-none focus:border-0 border-none rounded-l-full join-item md:w-1/2 md:justify-end lg:w-80"
+                        <input class="input focus:outline-none focus:border-0 border-none rounded-l-full join-item md:w-[150px] md:justify-end lg:w-80"
                             placeholder="Search here" />
                         <button class="btn join-item rounded-r-full border-none bg-white border-l-0"><svg
                                 xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
