@@ -26,7 +26,6 @@
         .primary-color {
             color: #F85559;
         }
-
         .bg-primary-color {
             background-color: #F85559;
         }
@@ -42,19 +41,26 @@
                 <div class="navbar-start justify-end md:justify-start ">
                     <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:text-white text-black" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4 12h8m-8 6h16" />
-                            </svg>
+                            <i class="fa-solid fa-bars md:text-white text-black text-4xl"></i>
                         </label>
                         <ul tabindex="0"
-                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-lg font-medium -ml-40 md:ml-0">
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-72 text-lg font-medium -ml-52 md:ml-0">
                             <li><a>Home</a></li>
                             <li><a>About Us</a></li>
                             <li><a>Shop</a></li>
                             <li><a>All Fruits</a></li>
+                            <li class="active:bg-white"><div class="join  active:text-black gap-0">
+                                <input class="input focus:outline-none focus:border-2 border-gray-300 border-r-0 rounded-l-full join-item"
+                                    placeholder="Search here" />
+                                <button class="btn join-item rounded-r-full border-gray-300 bg-white border-l-0"><svg
+                                        xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                        stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                    </svg></button>
+                            </div></li>
                         </ul>
+                        
                     </div>
                     <div class="navbar-center hidden lg:flex">
                         <ul class="menu menu-horizontal px-1 text-white text-lg font-medium">
@@ -85,6 +91,85 @@
             </div>
         </nav>
         <!-- Nav end here -->
+        <!-- Banner section start here -->
+         <div>
+            
+            <div class="carousel w-full">
+                <!-- slider 1 -->
+                <div id="slide1" class="carousel-item relative w-full">
+                    <div class="hero" style="background-image: url(./images/banner1.png);">
+                        <div class="hero-overlay bg-gradient-to-t from-[#12121200] to-[#121212] rounded-lg"></div>
+                        <div class="hero-content py-10 md:py-20  text-center text-neutral-content">
+                          <div class="max-w-md lg:max-w-3xl">
+                            <h1 class="mb-5 text-5xl font-bold lg:text-7xl">Exotic tastes at your <br>
+                                 doorstep</h1>
+                            <p class="mb-7">We supply highly quality organic products</p>
+                            <button class="btn text-white hover:text-[#F85559] bg-primary-color border-none px-8">Shop Now</button>
+                          </div>
+                        </div>
+                      </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <!-- slider 2 -->
+                <div id="slide2" class="carousel-item relative w-full">
+                    <div class="hero" style="background-image: url(./images/banner2.png);">
+                        <div class="hero-overlay bg-gradient-to-t from-[#12121200] to-[#121212] rounded-lg"></div>
+                        <div class="hero-content py-10 md:py-20 text-center text-neutral-content">
+                          <div class="max-w-md lg:max-w-3xl">
+                            <h1 class="mb-5 text-5xl font-bold lg:text-7xl">Exotic tastes at your <br>
+                                 doorstep</h1>
+                            <p class="mb-7">We supply highly quality organic products</p>
+                            <button class="btn text-white hover:text-[#F85559] bg-primary-color border-none px-8">Shop Now</button>
+                          </div>
+                        </div>
+                      </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <!-- slider 3 -->
+                <div id="slide3" class="carousel-item relative w-full">
+                  <div class="hero" style="background-image: url(./images/banner3.png);">
+                        <div class="hero-overlay bg-gradient-to-t from-[#12121200] to-[#121212] rounded-lg"></div>
+                        <div class="hero-content py-10 md:py-20 text-center text-neutral-content">
+                          <div class="max-w-md lg:max-w-3xl">
+                            <h1 class="mb-5 text-5xl font-bold lg:text-7xl">Exotic tastes at your <br>
+                                 doorstep</h1>
+                            <p class="mb-7">We supply highly quality organic products</p>
+                            <button class="btn text-white hover:text-[#F85559] bg-primary-color border-none px-8">Shop Now</button>
+                          </div>
+                        </div>
+                      </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <!-- slider 4 -->
+                <div id="slide4" class="carousel-item relative w-full">
+                    <div class="hero" style="background-image: url(./images/banner4.png);">
+                        <div class="hero-overlay bg-gradient-to-t from-[#12121200] to-[#121212] rounded-lg"></div>
+                        <div class="hero-content py-10 md:py-20 text-center text-neutral-content">
+                          <div class="max-w-md lg:max-w-3xl">
+                            <h1 class="mb-5 text-5xl font-bold lg:text-7xl">Exotic tastes at your <br>
+                                 doorstep</h1>
+                            <p class="mb-7">We supply highly quality organic products</p>
+                            <button class="btn text-white hover:text-[#F85559] bg-primary-color border-none px-8">Shop Now</button>
+                          </div>
+                        </div>
+                      </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
+         </div>
+        <!-- Banner section end here -->
     </header>
     <!-- Header end here -->
 </body>
