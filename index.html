@@ -10,12 +10,83 @@
     <!-- Tailwind CSS & Daisy UI cdn -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
     <!-- Font-awesome cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Internal CSS -->
+    <style>
+        body{
+            font-family: 'Lato', sans-serif;
+        }
+        .primary-color {
+            color: #F85559;
+        }
+
+        .bg-primary-color {
+            background-color: #F85559;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Hello</h1>
+    <!-- Header start here -->
+    <header class="container px-3 mx-auto">
+        <!-- Nav start here -->
+        <nav class="my-12">
+            <div class="navbar bg-primary-color rounded-full px-4 gap-3">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </label>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-lg font-medium">
+                            <li><a>Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All Fruits</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1 text-white text-lg font-medium">
+                            <li><a>Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All Fruits</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navbar-center">
+                    <img class="my-1" src="./images/logo.png" alt="">
+                    <h1 class="text-4xl font-bold text-white ml-4">Fruit Burst</h1>
+                </div>
+                <div class="navbar-end hidden md:flex">
+                    <!-- search bar -->
+                    <div class="join">
+                        <input class="input focus:outline-none focus:border-0 border-none rounded-l-full join-item md:w-1/2 md:justify-end lg:w-80"
+                            placeholder="Search here" />
+                        <button class="btn join-item rounded-r-full border-none bg-white border-l-0"><svg
+                                xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                            </svg></button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Nav end here -->
+    </header>
+    <!-- Header end here -->
 </body>
 
 </html>
