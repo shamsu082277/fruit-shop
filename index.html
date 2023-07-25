@@ -44,7 +44,7 @@
                             <i class="fa-solid fa-bars md:text-white text-black text-4xl"></i>
                         </label>
                         <ul tabindex="0"
-                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-72 text-lg font-medium -ml-52 md:ml-0">
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-72 text-lg font-medium -ml-52 md:ml-0 ">
                             <li><a>Home</a></li>
                             <li><a>About Us</a></li>
                             <li><a>Shop</a></li>
@@ -99,7 +99,7 @@
                 <div id="slide1" class="carousel-item relative w-full">
                     <div class="hero" style="background-image: url(./images/banner1.png);">
                         <div class="hero-overlay bg-gradient-to-t from-[#12121200] to-[#121212] rounded-lg"></div>
-                        <div class="hero-content py-10 md:py-20  text-center text-neutral-content">
+                        <div class="hero-content py-10 md:pt-20 md:pb-52   text-center text-neutral-content">
                           <div class="max-w-md lg:max-w-3xl">
                             <h1 class="mb-5 text-5xl font-bold lg:text-7xl">Exotic tastes at your <br>
                                  doorstep</h1>
@@ -117,7 +117,7 @@
                 <div id="slide2" class="carousel-item relative w-full">
                     <div class="hero" style="background-image: url(./images/banner2.png);">
                         <div class="hero-overlay bg-gradient-to-t from-[#12121200] to-[#121212] rounded-lg"></div>
-                        <div class="hero-content py-10 md:py-20 text-center text-neutral-content">
+                        <div class="hero-content py-10 md:pt-20 md:pb-52  text-center text-neutral-content">
                           <div class="max-w-md lg:max-w-3xl">
                             <h1 class="mb-5 text-5xl font-bold lg:text-7xl">Exotic tastes at your <br>
                                  doorstep</h1>
@@ -135,7 +135,7 @@
                 <div id="slide3" class="carousel-item relative w-full">
                   <div class="hero" style="background-image: url(./images/banner3.png);">
                         <div class="hero-overlay bg-gradient-to-t from-[#12121200] to-[#121212] rounded-lg"></div>
-                        <div class="hero-content py-10 md:py-20 text-center text-neutral-content">
+                        <div class="hero-content py-10 md:pt-20 md:pb-52  text-center text-neutral-content">
                           <div class="max-w-md lg:max-w-3xl">
                             <h1 class="mb-5 text-5xl font-bold lg:text-7xl">Exotic tastes at your <br>
                                  doorstep</h1>
@@ -153,7 +153,7 @@
                 <div id="slide4" class="carousel-item relative w-full">
                     <div class="hero" style="background-image: url(./images/banner4.png);">
                         <div class="hero-overlay bg-gradient-to-t from-[#12121200] to-[#121212] rounded-lg"></div>
-                        <div class="hero-content py-10 md:py-20 text-center text-neutral-content">
+                        <div class="hero-content py-10 md:pt-20 md:pb-52  text-center text-neutral-content">
                           <div class="max-w-md lg:max-w-3xl">
                             <h1 class="mb-5 text-5xl font-bold lg:text-7xl">Exotic tastes at your <br>
                                  doorstep</h1>
@@ -172,6 +172,75 @@
         <!-- Banner section end here -->
     </header>
     <!-- Header end here -->
+    <!-- Main start here -->
+    <main>
+        <!-- fruit image section start here -->
+        <section class="container hidden md:block px-3 mx-auto -mt-20 ">
+            <div class="flex justify-around px-2 py-5 mx-28 items-center drop-shadow-lg bg-white">
+                <div>
+                    <img src="./images/fruit1.png" alt="">
+                    <p>Grape</p>
+                </div>
+                <div>
+                    <img src="./images/fruit2.png" alt="">
+                    <p>Orange</p>
+                </div>
+                <div>
+                    <img src="./images/fruit3.png" alt="">
+                    <p>Mango</p>
+                </div>
+                <div>
+                    <img src="./images/fruit4.png" alt="">
+                    <p>Strawberry</p>
+                </div>
+                <div>
+                    <img src="./images/fruit5.png" alt="">
+                    <p>Pomegranate</p>
+                </div>
+            </div>
+        </section>
+        <!-- fruit image section end here -->
+        <!-- Deal of the day start here -->
+        <section class="container px-3 mx-auto mt-32">
+            <div>
+                <div class="space-y-6">
+                    <h1 class="text-5xl font-extrabold text-[#121212]">Deal of the day</h1>
+                    <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+                <div>
+                    <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                        <div class="flex flex-col">
+                          <span class="countdown font-mono text-5xl">
+                            <span style="--value:28;"></span>
+                          </span>
+                          days
+                        </div>
+                        <span class="text-2xl flex justify-items-start"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                        <div class="flex flex-col">
+                          <span class="countdown font-mono text-5xl">
+                            <span style="--value:10;"></span>
+                          </span>
+                          hours
+                        </div> 
+                        <div class="flex flex-col">
+                          <span class="countdown font-mono text-5xl">
+                            <span style="--value:24;"></span>
+                          </span>
+                          min
+                        </div> 
+                        <div class="flex flex-col">
+                          <span class="countdown font-mono text-5xl">
+                            <span style="--value:5;"></span>
+                          </span>
+                          sec
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <!-- Deal of the day end here -->
+    </main>
+    <!-- Main end here -->
 </body>
 
 </html>
