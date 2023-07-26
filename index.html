@@ -36,7 +36,7 @@
 
 <body>
     <!-- Header start here -->
-    <header class="container px-3 mx-auto">
+    <header class="container px-4 mx-auto">
         <!-- Nav start here -->
         <nav class="my-12">
             <div
@@ -55,10 +55,10 @@
                             <li class="active:bg-white">
                                 <div class="join  active:text-black gap-0">
                                     <input
-                                        class="input focus:outline-none focus:border-2 border-gray-300 border-r-0 rounded-l-full join-item"
+                                        class="input focus:outline-none focus:border-0 border-gray-300 border-x-0 border-t-0  rounded-l-none join-item"
                                         placeholder="Search here" />
                                     <button
-                                        class="btn join-item rounded-r-full border-gray-300 bg-white border-l-0"><svg
+                                        class="btn join-item focus:border-0 rounded-r-none border-gray-300 bg-white border-0"><svg
                                             xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                             viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -100,8 +100,6 @@
         </nav>
         <!-- Nav end here -->
         <!-- Banner section start here -->
-        <div>
-
             <div class="carousel w-full">
                 <!-- slider 1 -->
                 <div id="slide1" class="carousel-item relative w-full">
@@ -109,7 +107,7 @@
                         <div class="hero-overlay bg-gradient-to-t from-[#12121200] to-[#121212] rounded-lg"></div>
                         <div class="hero-content py-10 md:pt-20 md:pb-52   text-center text-neutral-content">
                             <div class="max-w-md lg:max-w-3xl">
-                                <h1 class="mb-5 text-5xl font-bold lg:text-7xl">Exotic tastes at your <br>
+                                <h1 class="mb-5  font-bold text-5xl lg:text-7xl">Exotic tastes at your <br>
                                     doorstep</h1>
                                 <p class="mb-7">We supply highly quality organic products</p>
                                 <button
@@ -119,8 +117,8 @@
                         </div>
                     </div>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide4" class="btn btn-circle">❮</a>
-                        <a href="#slide2" class="btn btn-circle">❯</a>
+                        <a href="#slide4" class="btn btn-circle bg-[#121212] text-white border-0 hover:text-[#121212]">❮</a>
+                        <a href="#slide2" class="btn btn-circle bg-[#121212] text-white border-0 hover:text-[#121212]">❯</a>
                     </div>
                 </div>
                 <!-- slider 2 -->
@@ -139,8 +137,8 @@
                         </div>
                     </div>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide1" class="btn btn-circle">❮</a>
-                        <a href="#slide3" class="btn btn-circle">❯</a>
+                        <a href="#slide1" class="btn btn-circle bg-[#121212] text-white border-0 hover:text-[#121212]">❮</a>
+                        <a href="#slide3" class="btn btn-circle bg-[#121212] text-white border-0 hover:text-[#121212]">❯</a>
                     </div>
                 </div>
                 <!-- slider 3 -->
@@ -159,8 +157,8 @@
                         </div>
                     </div>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide2" class="btn btn-circle">❮</a>
-                        <a href="#slide4" class="btn btn-circle">❯</a>
+                        <a href="#slide2" class="btn btn-circle bg-[#121212] text-white border-0 hover:text-[#121212]">❮</a>
+                        <a href="#slide4" class="btn btn-circle bg-[#121212] text-white border-0 hover:text-[#121212]">❯</a>
                     </div>
                 </div>
                 <!-- slider 4 -->
@@ -179,19 +177,18 @@
                         </div>
                     </div>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide3" class="btn btn-circle">❮</a>
-                        <a href="#slide1" class="btn btn-circle">❯</a>
+                        <a href="#slide3" class="btn btn-circle bg-[#121212] text-white border-0 hover:text-[#121212]">❮</a>
+                        <a href="#slide1" class="btn btn-circle bg-[#121212] text-white border-0 hover:text-[#121212]">❯</a>
                     </div>
                 </div>
             </div>
-        </div>
         <!-- Banner section end here -->
     </header>
     <!-- Header end here -->
     <!-- Main start here -->
     <main>
         <!-- fruit image section start here -->
-        <section class="container hidden md:block px-3 mx-auto -mt-20 ">
+        <section class="container hidden md:block px-4 mx-auto -mt-20 ">
             <div class="flex justify-around px-5 py-5 mx-28 items-center drop-shadow-lg bg-white">
                 <div>
                     <img src="./images/fruit1.png" alt="">
@@ -217,44 +214,42 @@
         </section>
         <!-- fruit image section end here -->
         <!-- Deal of the day section start here -->
-        <section class="container px-3 mx-auto mt-32">
+        <section class="container px-4 mx-auto mt-16 md:mt-32">
             <div class="flex flex-col md:flex-row gap-5 lg:gap-60 md:gap-30 items-center justify-between mb-12">
                 <div class="space-y-6">
-                    <h1 class="text-5xl font-extrabold text-[#121212]">Deal of the day</h1>
-                    <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>
+                    <h1 class="text-4xl md:text-5xl text-center md:text-left font-extrabold text-[#121212]">Deal of the day</h1>
+                    <p class="text-base text-center md:text-left font-medium text-[#12121299]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>
                         Latin literature from 45 BC, making it over 2000 years old.</p>
                 </div>
                 <!-- Countdown -->
-                <div>
                     <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
                         <div class="flex flex-col">
-                            <span class="countdown font-mono text-5xl">
+                            <span class="countdown font-bold font-mono text-4xl md:text-5xl">
                                 <span style="--value:28;"></span>
                             </span>
                             days
                         </div>
                         <span class="text-5xl flex items-start">:</span>
                         <div class="flex flex-col">
-                            <span class="countdown font-mono text-5xl">
+                            <span class="countdown font-bold font-mono text-4xl md:text-5xl">
                                 <span style="--value:10;"></span>
                             </span>
                             hours
                         </div>
                         <span class="text-5xl flex items-start">:</span>
                         <div class="flex flex-col">
-                            <span class="countdown font-mono text-5xl">
+                            <span class="countdown font-bold font-mono text-4xl md:text-5xl">
                                 <span style="--value:24;"></span>
                             </span>
                             min
                         </div>
                         <span class="text-5xl flex items-start">:</span>
                         <div class="flex flex-col">
-                            <span class="countdown font-mono text-5xl">
+                            <span class="countdown font-bold font-mono text-4xl md:text-5xl">
                                 <span style="--value:5;"></span>
                             </span>
                             sec
                         </div>
-                    </div>
                 </div>
             </div>
             <div class="mb-12 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
@@ -602,12 +597,12 @@
         </section>
         <!-- Deal of the day section end here -->
         <!-- Meet the team section start here -->
-        <section class="container px-3 mx-auto text-center">
+        <section class="container px-4 mx-auto text-center">
             <div class="hero bg-cover" style="background-image: url(./images/team.png);">
                 <div class="hero-overlay bg-[#121212B3] rounded-lg"></div>
                 <div>
                     <div class=" py-12 md:pt-28 md:pb-12 px-10 md:px-40">
-                        <h1 class="text-5xl font-extrabold text-white mb-6">Meet the team section</h1>
+                        <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-6 ">Meet the team section</h1>
                         <p class="text-base font-medium text-white">Contrary to popular belief, is not simply
                             random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making
                             it
@@ -683,10 +678,10 @@
         </section>
         <!-- Meet the team section end here -->
         <!-- Why Choose Us section start here -->
-        <section class="container px-3 mx-auto my-32 ">
+        <section class="container px-4 mx-auto my-32 ">
             <div class="text-center mb-12">
                 <h1 class="text-5xl font-extrabold  mb-6">Why Choose Us </h1>
-                <p class="text-base font-medium">Contrary to popular belief, is not simply
+                <p class="text-base  font-medium text-[#12121299]">Contrary to popular belief, is not simply
                     random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it
                     over
                     2000 years old.</p>
@@ -784,7 +779,7 @@
     <!-- Main end here -->
     <!-- Footer start here -->
     <footer class="py-32 bg-black">
-        <div class="container px-3 mx-auto footer footer-center">
+        <div class="container px-4 mx-auto footer footer-center">
             <div class="flex">
                 <img class="my-1" src="./images/logo.png" alt="">
                     <h1 class="text-4xl font-bold text-white ml-4">Fruit Burst</h1>
