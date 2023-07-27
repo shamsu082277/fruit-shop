@@ -39,9 +39,9 @@
     <header class="container px-4 mx-auto">
         <!-- Nav start here -->
         <nav class="my-12">
-            <div
-                class="navbar bg-white md:bg-[#F85559] bg-primary-color rounded-full px-4 gap-3 flex-row-reverse md:flex-row">
+            <div class="navbar bg-white md:bg-[#F85559] bg-primary-color rounded-full px-4 gap-3 flex-row-reverse md:flex-row">
                 <div class="navbar-start justify-end md:justify-start ">
+                    <!-- mobile navbar -->
                     <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
                             <i class="fa-solid fa-bars md:text-white text-black text-4xl"></i>
@@ -53,7 +53,7 @@
                             <li><a>Shop</a></li>
                             <li><a>All Fruits</a></li>
                             <li class="active:bg-white">
-                                <div class="join  active:text-black gap-0">
+                                <div class="join  active:text-black gap-0 flex md:hidden">
                                     <input
                                         class="input focus:outline-none focus:border-0 border-gray-300 border-x-0 border-t-0  rounded-l-none join-item"
                                         placeholder="Search here" />
@@ -102,8 +102,8 @@
         <!-- Banner section start here -->
             <div class="carousel w-full">
                 <!-- slider 1 -->
-                <div id="slide1" class="carousel-item relative w-full">
-                    <div class="hero" style="background-image: url(./images/banner1.png);">
+                <div id="slide1" class="carousel-item relative w-full ">
+                    <div class="hero rounded-lg" style="background-image: url(./images/banner1.png);">
                         <div class="hero-overlay bg-gradient-to-t from-[#12121200] to-[#121212] rounded-lg"></div>
                         <div class="hero-content py-10 md:pt-20 md:pb-52   text-center text-neutral-content">
                             <div class="max-w-md lg:max-w-3xl">
@@ -123,7 +123,7 @@
                 </div>
                 <!-- slider 2 -->
                 <div id="slide2" class="carousel-item relative w-full">
-                    <div class="hero" style="background-image: url(./images/banner2.png);">
+                    <div class="hero rounded-lg" style="background-image: url(./images/banner2.png);">
                         <div class="hero-overlay bg-gradient-to-t from-[#12121200] to-[#121212] rounded-lg"></div>
                         <div class="hero-content py-10 md:pt-20 md:pb-52  text-center text-neutral-content">
                             <div class="max-w-md lg:max-w-3xl">
@@ -142,8 +142,8 @@
                     </div>
                 </div>
                 <!-- slider 3 -->
-                <div id="slide3" class="carousel-item relative w-full">
-                    <div class="hero" style="background-image: url(./images/banner3.png);">
+                <div id="slide3" class="carousel-item relative w-full ">
+                    <div class="hero rounded-lg" style="background-image: url(./images/banner3.png);">
                         <div class="hero-overlay bg-gradient-to-t from-[#12121200] to-[#121212] rounded-lg"></div>
                         <div class="hero-content py-10 md:pt-20 md:pb-52  text-center text-neutral-content">
                             <div class="max-w-md lg:max-w-3xl">
@@ -163,7 +163,7 @@
                 </div>
                 <!-- slider 4 -->
                 <div id="slide4" class="carousel-item relative w-full">
-                    <div class="hero" style="background-image: url(./images/banner4.png);">
+                    <div class="hero rounded-lg" style="background-image: url(./images/banner4.png);">
                         <div class="hero-overlay bg-gradient-to-t from-[#12121200] to-[#121212] rounded-lg"></div>
                         <div class="hero-content py-10 md:pt-20 md:pb-52  text-center text-neutral-content">
                             <div class="max-w-md lg:max-w-3xl">
@@ -189,7 +189,7 @@
     <main>
         <!-- fruit image section start here -->
         <section class="container hidden md:block px-4 mx-auto -mt-20 ">
-            <div class="flex justify-around px-5 py-5 mx-28 items-center drop-shadow-lg bg-white">
+            <div class="flex justify-around px-5 py-5 mx-28 items-center drop-shadow-lg bg-white rounded-lg">
                 <div>
                     <img src="./images/fruit1.png" alt="">
                     <p class="text-center">Grape</p>
@@ -227,28 +227,28 @@
                             <span class="countdown font-bold font-mono text-4xl md:text-5xl">
                                 <span style="--value:28;"></span>
                             </span>
-                            days
+                            Days
                         </div>
-                        <span class="text-5xl flex items-start">:</span>
+                        <span class="text-3xl relative"><i class="fa-solid fa-ellipsis-vertical absolute top-3"></i></span>
                         <div class="flex flex-col">
                             <span class="countdown font-bold font-mono text-4xl md:text-5xl">
                                 <span style="--value:10;"></span>
                             </span>
-                            hours
+                            Hours
                         </div>
-                        <span class="text-5xl flex items-start">:</span>
+                        <span class="text-3xl relative"><i class="fa-solid fa-ellipsis-vertical absolute top-3"></i></span>
                         <div class="flex flex-col">
                             <span class="countdown font-bold font-mono text-4xl md:text-5xl">
                                 <span style="--value:24;"></span>
                             </span>
-                            min
+                            Min
                         </div>
-                        <span class="text-5xl flex items-start">:</span>
+                        <span class="text-3xl relative"><i class="fa-solid fa-ellipsis-vertical absolute top-3"></i></span>
                         <div class="flex flex-col">
                             <span class="countdown font-bold font-mono text-4xl md:text-5xl">
                                 <span style="--value:5;"></span>
                             </span>
-                            sec
+                            Sec
                         </div>
                 </div>
             </div>
@@ -679,9 +679,9 @@
         </section>
         <!-- Meet the team section end here -->
         <!-- Why Choose Us section start here -->
-        <section class="container px-4 mx-auto my-32 ">
+        <section class="container px-4 mx-auto my-16 md:my-32 ">
             <div class="text-center mb-12">
-                <h1 class="text-5xl font-extrabold  mb-6">Why Choose Us </h1>
+                <h1 class="text-4xl md:text-5xl font-extrabold  mb-6">Why Choose Us </h1>
                 <p class="text-base  font-medium text-[#12121299]">Contrary to popular belief, is not simply
                     random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it
                     over
